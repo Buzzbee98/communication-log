@@ -4,4 +4,27 @@ body {
    font-size: 150%;
    font-family: 'Satisfy', cursive;
    margin: 5em 25%;
+html {
+   overflow: hidden;
+}
+
+body {
+   color: white;
+   background-color: black;
+}
+
+p {
+   position: relative;
+}
+
+p:hover {
+   animation-name: move;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes move {
+   from {left: 0;}
+   to{left: 200px}
+>>>>>>> 9e89497ac277dfef4f8aa9fec51dd6f65a659383
 }
