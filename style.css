@@ -1,0 +1,23 @@
+html {
+   overflow: hidden;
+}
+
+body {
+   color: white;
+   background-color: black;
+}
+
+p {
+   position: relative;
+}
+
+p:hover {
+   animation-name: move;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes move {
+   from {left: 0;}
+   to{left: 200px}
+}
